@@ -12,5 +12,6 @@ namespace EMR_Management_System.Data
 
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
     }
 }
