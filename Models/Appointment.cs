@@ -19,5 +19,6 @@ namespace EMR_Management_System.Models
         public Doctor Doctor { get; set; }
 
         public AppointmentStatus Status { get; set; }
+
     }
 }
