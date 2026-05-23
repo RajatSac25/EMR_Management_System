@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EMR_Management_System.Models;
 using EMR_Management_System.Data;
+using Microsoft.AspNetCore.Authorization;
 
+[Authorize]
 public class DoctorsController : Controller
 {
     private readonly AppDbContext _context;

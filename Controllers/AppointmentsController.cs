@@ -4,7 +4,9 @@ using EMR_Management_System.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
+[Authorize]
 public class AppointmentsController : Controller
 {
     private readonly AppDbContext _context;
